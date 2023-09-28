@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  
+  border: 20px solid cyan;
+  border-radius: 60px;
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+  display:flexbox;
+}
+
+

@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "scripts": {
+    "server": "node server.js",
+    "client": "npm start --prefix weatherapp",
+    "dev": "concurrently \"npm run server\" \"npm run weatherapp\""
+}
+}
+
+  
+
